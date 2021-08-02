@@ -348,7 +348,7 @@ function dl_cb(a,d)
 end
 function getChatId(id)
 local chat = {}
-local id = tostriDRG(id)
+local id = tostring(id)
 if id:match('^-100') then
 local channel_id = id:gsub('-100', '')
 chat = {ID = channel_id, type = 'channel'}
@@ -739,7 +739,7 @@ if msg then
 local text = msg.content_.text_
 --------------------------------------------------------------------------------------------------------------
 if msg.chat_id_ then
-local id = tostriDRG(msg.chat_id_)
+local id = tostring(msg.chat_id_)
 if id:match("-100(%d+)") then
 database:incr(bot_id..'Msg_User'..msg.chat_id_..':'..msg.sender_user_id_) 
 Chat_Type = 'GroupBot' 
