@@ -98,11 +98,11 @@ file:close()
 file = io.open("DRG", "w")  
 file:write([[
 #!/usr/bin/env bash
-cd $HOME/n
+cd $HOME/DRAGON
 while(true) do
 rm -fr ../.telegram-cli
-screen -S n -X kill
-screen -S n ./n
+screen -S DRAGON -X kill
+screen -S DRAGON ./DRAGON
 done
 ]])  
 file:close() 
