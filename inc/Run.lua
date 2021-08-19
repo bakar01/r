@@ -158,12 +158,12 @@ print(tostring(io.popen("lua inc/locks.lua"):read('*all')))
 end
 
 print('\27[0;33m>>'..[[
-▇▇▇                                       ▇▇▇               
-▇▇        ▇                        ▇       ▇▇             
-▇▇          ▇ @M_S_U   ▇         ▇▇            
-▇▇             ▇             ▇             ▇▇        Dev : Sameer Essam
-▇▇                ▇       ▇                ▇▇      
-▇▇                   ▇▇                    ▇▇     Source revor BY @M_S_U
+  ___   _                       _   _         
+ | __| | |  _ __    _  _   ___ | | (_)  _ __  
+ | _|  | | | '  \  | || | (_-< | | | | | '  \ 
+ |___| |_| |_|_|_|  \_,_| /__/ |_| |_| |_|_|_|                         
+> CH › @UU_SD1
+~> DEVELOPER › @M_S_U 
                                                   
 ]]..'\027[0;32m'
 ..'¦ TOKEN_BOT: \27[1;34m'..Token..'\027[0;32m\n'
